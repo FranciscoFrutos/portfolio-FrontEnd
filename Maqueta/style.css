@@ -1,0 +1,72 @@
+#body{
+    margin-top: 100px;
+}
+body{
+    background: #313131; 
+}
+
+.card{
+    height: 100%;
+}
+.thumbnail{
+    max-height: 50px;  
+    padding: 2px;
+}
+
+.gap-s{
+    gap: 10px;
+}
+
+.profile-picture{
+    max-height: 150px;
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
+
+.skill-bar{
+    border: 2px solid black;
+    border-radius: 5px;
+    min-height: 20px;
+    min-width: 100%;
+    
+}
+
+.skill-bar.mastery{
+    background-image: linear-gradient(90deg,
+        #c6dbef 20%,
+        #9ecae1 20%, #9ecae1 40%,
+        #6baed6 40%, #6baed6 60%,
+        #3182bd 60%, #3182bd 80%,
+        #08519c 80%);
+    background-color: #313131;
+}
+.skill-bar.expertise{
+    background-image: linear-gradient(90deg,
+        #c6dbef 20%,
+        #9ecae1 20%, #9ecae1 40%,
+        #6baed6 40%, #6baed6 60%,
+        #3182bd 60%, #3182bd 80%,
+        white 80%);
+    background-color: #313131;
+}
+.skill-bar.proficiency{
+    background-image: linear-gradient(90deg,
+        #c6dbef 20%,
+        #9ecae1 20%, #9ecae1 40%,
+        #6baed6 40%, #6baed6 60%,
+        white 60%);
+    background-color: #313131;
+}
+.skill-bar.competence{
+    background-image: linear-gradient(90deg,
+        #c6dbef 20%,
+        #9ecae1 20%, #9ecae1 40%,
+        white 40%);
+    background-color: #313131;
+}
+.skill-bar.novice{
+    background-image: linear-gradient(90deg,
+        #c6dbef 20%,
+        white 20%);
+    background-color: #313131;
+}
